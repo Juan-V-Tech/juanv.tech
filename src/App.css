@@ -1,56 +1,80 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #0d0d0d; /* Deep black */
-  color: #f0f0f0;            /* Soft white text */
-}
-
+/* Center everything in the main container */
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* About Me wrapper */
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Circular profile photo */
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid blue;
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* About paragraph styling */
+.about-me p {
+  color: #ddd;
+  line-height: 1.6;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center the buttons container and buttons */
+.buttons {
+  display: flex;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 4rem 2rem;
-  margin: 0 auto;
-  min-height: 100vh;
-  max-width: 800px;
+  margin-top: 2rem;
 }
 
-
-
-
-h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
-  color: #ffffff;
-}
-
-h2 {
-  font-size: 1.5rem;
-  color: #999999;
-  margin-bottom: 1rem;
-}
-
-.subtitle {
-  font-size: 1.1rem;
-  color: #cccccc;
-  margin-bottom: 2rem;
-}
-
-.buttons a {
-  margin: 0.5rem;
-  padding: 0.75rem 1.5rem;
-  background: #646cff;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
+/* Rectangular box buttons */
+.button {
   display: inline-block;
-  transition: background 0.2s ease-in-out;
+  padding: 0.75em 2em;
+  border: 2px solid blue;
+  border-radius: 8px;
+  background: #1a1a1a;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
 }
 
-.buttons a:hover {
-  background: #4b56db;
+.button:hover,
+.button:focus {
+  background: #223366;
+  color: #fff;
+  border-color: #223366;
+  outline: none;
 }
-
