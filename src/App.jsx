@@ -3,17 +3,17 @@ import './App.css';
 function App() {
   return (
     <main className="container">
-      <h1>Juan Carlos Ventura</h1>
-      <h2>Computer Engineering & CS Student</h2>
+      <h1>Juan Ventura-Romero</h1>
+      <h2>Computer Engineering & Computer Science Student</h2>
       <p className="subtitle">
-        Aspiring Software & Hardware Engineer | ICC Rep for SHPE @ El Camino College
+        Software & Hardware Engineer | ICC Rep for SHPE @ El Camino College
       </p>
 
       {/* ——— About Me Section ——— */}
       <div className="about-me">
         <img
           src="/profile.jpg"
-          alt="Portrait of Juan Carlos Ventura"
+          alt="Portrait of Juan Ventura-Romero"
           className="profile-photo"
         />
         <p>
