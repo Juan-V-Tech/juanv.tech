@@ -12,7 +12,7 @@ function App() {
       {/* ——— About Me Section ——— */}
       <div className="about-me">
         <img
-          src="/profile.jpg"
+          src="/profile.jpeg"
           alt="Portrait of Juan Ventura-Romero"
           className="profile-photo"
         />
