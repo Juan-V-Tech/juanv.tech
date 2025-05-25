@@ -1,6 +1,9 @@
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+  const [showPdf, setShowPdf] = useState(false);
+
   return (
     <main className="container">
       <h1>Juan Ventura-Romero</h1>
@@ -32,7 +35,7 @@ function App() {
           GitHub
         </a>
         <a
-          href="/resume.pdf"
+          href="/juan-ventura-romero.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="button"
@@ -43,7 +46,7 @@ function App() {
           href="mailto:focusjc07@gmail.com"
           className="button"
         >
-          Contact
+         Contact
         </a>
       </div>
     </main>
