@@ -21,7 +21,7 @@ function App() {
         />
         <p>
           Hello, nice to meet you and welcome to my website. I'm Juan an aspiring engineer and current student at El Camino College.
-          Besides my coursework in computer science and computer engineering, I'm the current Inter-Club Council Representative Director of Equity Diversity and Inclusion (EDI) at El Camino College.
+          Besides my coursework in computer science and computer engineering, I'm the current Inter-Club Council Director of Equity Diversity and Inclusion (EDI) at El Camino College.
         </p>
       </div>
 
