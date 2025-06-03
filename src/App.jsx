@@ -9,7 +9,7 @@ function App() {
       <h1>Juan Ventura-Romero</h1>
       <h2>Computer Engineering & Computer Science Student</h2>
       <p className="subtitle">
-        Software & Hardware Engineer | ICC Rep for SHPE @ El Camino College
+        Software & Hardware Engineer | Director of Equity Diversity and Inclusion @ El Camino College
       </p>
 
       {/* ——— About Me Section ——— */}
