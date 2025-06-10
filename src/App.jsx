@@ -9,7 +9,7 @@ function App() {
       <h1>Juan Ventura-Romero</h1>
       <h2>Computer Engineering & Computer Science Student</h2>
       <p className="subtitle">
-        Software & Hardware Engineer | Inter-Club Council Director of Equity Diversity and Inclusion @ El Camino College
+        Software & Hardware Engineer | El Camino College Inter-Club Council Director of Diversity, Equity and Inclusion
       </p>
 
       {/* ——— About Me Section ——— */}
@@ -20,8 +20,9 @@ function App() {
           className="profile-photo"
         />
         <p>
-          Hello, nice to meet you and welcome to my website. I'm Juan an aspiring engineer and current student at El Camino College.
-          Besides my coursework in computer science and computer engineering, I'm the current Inter-Club Council Director of Equity Diversity and Inclusion (EDI) at El Camino College.
+          Hello there! I'm Juan Ventura-Romero, an aspiring student engineer and developer.
+          My interest lies in software, eletronics, and hardware enginnering, as well as in promoting diversity, equity, and inclusion as the Director of DEI for the Inter-Club Council at El Camino College.
+          I am dedicated to creating inclusive environments and diversifying the tech industry! Feel free to explore my projects and connect with me through the links below.
         </p>
       </div>
 
