@@ -8,7 +8,7 @@
   width: 100vw;
   text-align: center;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 auto;
 }
 
 /* About Me wrapper */
@@ -20,6 +20,8 @@
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
   text-align: center;
 }
 
@@ -52,6 +54,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Rectangular box buttons */
