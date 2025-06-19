@@ -8,7 +8,7 @@
   width: 100vw;
   text-align: center;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
 }
 
 /* About Me wrapper */
@@ -20,8 +20,6 @@
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
   text-align: center;
 }
 
@@ -43,8 +41,7 @@
   color: white;
   line-height: 1.6;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 /* Center the buttons container and buttons */
@@ -53,8 +50,7 @@
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 /* Rectangular box buttons */
@@ -80,4 +76,30 @@
   color: #fff;
   border-color: #223366;
   outline: none;
+}
+
+/*media query for snaller screens and mobile devices */
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+
+  .about-me {
+    padding: 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .button {
+    padding: 0.5em 1.5em;
+    font-size: 0.9em;
+  }
 }
