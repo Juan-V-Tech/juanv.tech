@@ -1,3 +1,11 @@
+/*color palette 
+      #7D6BF2 5%,
+      #07038C 40%,
+      #020659 80%,
+      #040DBF 90%,
+      #0511F2 100%
+*/
+
 /* Center everything in the main container */
 .container {
   display: flex;
@@ -9,6 +17,29 @@
   text-align: center;
   margin: 0 auto;
   padding: 0;
+}
+
+/*Full name styling */
+.fullname {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 0.5rem 0;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+/*title styling */
+.title{
+  color: white;
+  font-size: 1.5em;
+  margin: 0.5rem 0;
+}
+
+/*subtitle styling */
+.subtitle {
+  color: white;
+  font-size: 1.2em;
+  margin: 0.5rem 0;
 }
 
 /* About Me wrapper */
@@ -29,7 +60,7 @@
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #376ba78e;
+  border: 4px solid rgba(255, 255, 255, 0.616);
   margin-bottom: 1rem;
   display: block;
   margin-left: auto;
@@ -38,10 +69,10 @@
 
 /* About paragraph styling */
 .about-me p {
+  font-size: 1.1em;
   color: white;
   line-height: 1.6;
   text-align: center;
-  margin: 0 auto;
 }
 
 /* Center the buttons container and buttons */
@@ -57,10 +88,10 @@
 .button {
   display: inline-block;
   padding: 0.75em 2em;
-  border: 2px solid #223366;
+  border: 2px solid rgba(255, 255, 255, 0.897);
   border-radius: 8px;
-  background: #1a1a1a;
-  color: #fff;
+  background: #00000067;
+  color:white;
   font-size: 1em;
   font-weight: 500;
   text-align: center;
@@ -72,9 +103,9 @@
 
 .button:hover,
 .button:focus {
-  background: #223366;
-  color: #fff;
-  border-color: #223366;
+  background: white;
+  color: black;
+  border-color: white;
   outline: none;
 }
 
@@ -87,7 +118,10 @@
     box-sizing: border-box;
   }
 
+
+
   .about-me {
+    font-size: 0.9rem;
     padding: 1rem;
     max-width: 100%;
     box-sizing: border-box;

@@ -6,8 +6,8 @@ function App() {
 
   return (
     <main className="container">
-      <h1>Juan Ventura-Romero</h1>
-      <h2>Computer Engineering & Computer Science Student</h2>
+      <h1 className="fullname">Juan Ventura-Romero</h1>
+      <h2 className="title">Computer Engineering & Computer Science Student</h2>
       <p className="subtitle">
         Software & Hardware Engineer | El Camino College Inter-Club Council Director of Diversity, Equity and Inclusion
       </p>
@@ -21,7 +21,7 @@ function App() {
         />
         <p>
           Hello there! I'm Juan Ventura-Romero, an aspiring student engineer and developer.
-          My interest lies in software, eletronics, and hardware enginnering, as well as in promoting diversity, equity, and inclusion as the Director of DEI for the Inter-Club Council at El Camino College.
+          My strengths lie in software, eletronics, and hardware enginnering, as well as in promoting diversity, equity, and inclusion as the Director of DEI for the Inter-Club Council at El Camino College.
           I am dedicated to creating inclusive environments and diversifying the tech industry! Feel free to explore my projects and connect with me through the links below.
         </p>
       </div>
